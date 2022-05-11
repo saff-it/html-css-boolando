@@ -2,5 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+header{
+    background-color: rgb(255, 105, 0);
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.container.head{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 20px;
+    margin: 10px;
+}
+
+.dub a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 900
+}
+
+.mini-nav i{
+    color: white;
+    font-size: 12px;
+}
