@@ -130,15 +130,18 @@ span.old-price{
     margin-bottom: 50px;
 }
 
-img.cover-pic:hover{
-    display: none;
-}
 
-img.cover-pic{
+.hidden-pic{
     position: absolute;
-    bottom: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
 
+.hover:hover .hidden-pic{
+    opacity: 1;
+
+}
 
 
 /* footer  */
