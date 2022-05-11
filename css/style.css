@@ -48,7 +48,6 @@ nav{
 /* main  */
 
 .box-cntr{
-    height: 800px;
     width: 1000px;
     margin-top: 88px;
     display: flex;
@@ -73,7 +72,31 @@ footer{
 
 .container.foot{
     display: flex; 
+    justify-content: space-between;
     color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ft-lft h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.ft-lft a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    margin-right: 5px;
+}
+
+.ft-rght span{
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+
+}
+
+.ft-rght i{
+    margin-right: 5px;
 }
