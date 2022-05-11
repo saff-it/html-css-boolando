@@ -93,6 +93,12 @@ nav{
     left: 55px;
 }
 
+.sustainable.no-disc{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
 .heart{
     background-color: white;
     width: 35px;
