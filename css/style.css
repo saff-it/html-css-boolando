@@ -5,8 +5,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+nav{
     background-color: rgb(255, 105, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
 
 .container{
@@ -15,6 +20,8 @@ header{
     display: flex;
 }
 
+
+/* header  */
 .container.head{
     justify-content: space-between;
     align-items: center;
@@ -36,3 +43,25 @@ header{
     color: white;
     font-size: 12px;
 }
+
+
+/* main  */
+
+.box-cntr{
+    height: 800px;
+    width: 1000px;
+    margin-top: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.top-box{
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
