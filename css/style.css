@@ -65,3 +65,15 @@ nav{
 
 }
 
+
+/* footer  */
+footer{
+    background-color: black;
+}
+
+.container.foot{
+    display: flex; 
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
